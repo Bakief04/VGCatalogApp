@@ -1,0 +1,1 @@
+This is my project. It's going to be a database that catalogs Video Games by console and title.
