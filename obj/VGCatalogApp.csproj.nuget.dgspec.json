@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Zerozsaber\\source\\repos\\VGCatalogApp\\VGCatalogApp\\VGCatalogApp.csproj": {}
+    "C:\\Users\\zeroz\\Documents\\GitHub\\VGCatalogApp\\VGCatalogApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Zerozsaber\\source\\repos\\VGCatalogApp\\VGCatalogApp\\VGCatalogApp.csproj": {
+    "C:\\Users\\zeroz\\Documents\\GitHub\\VGCatalogApp\\VGCatalogApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zerozsaber\\source\\repos\\VGCatalogApp\\VGCatalogApp\\VGCatalogApp.csproj",
+        "projectUniqueName": "C:\\Users\\zeroz\\Documents\\GitHub\\VGCatalogApp\\VGCatalogApp.csproj",
         "projectName": "VGCatalogApp",
-        "projectPath": "C:\\Users\\Zerozsaber\\source\\repos\\VGCatalogApp\\VGCatalogApp\\VGCatalogApp.csproj",
-        "packagesPath": "C:\\Users\\Zerozsaber\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zerozsaber\\source\\repos\\VGCatalogApp\\VGCatalogApp\\obj\\",
+        "projectPath": "C:\\Users\\zeroz\\Documents\\GitHub\\VGCatalogApp\\VGCatalogApp.csproj",
+        "packagesPath": "C:\\Users\\zeroz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zeroz\\Documents\\GitHub\\VGCatalogApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Zerozsaber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zeroz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -47,6 +47,24 @@
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
             }
           },
           "imports": [
@@ -59,12 +77,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.12, 5.0.12]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -73,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
