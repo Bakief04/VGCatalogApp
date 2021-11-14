@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using VGCatalogApp.Data;
 using VGCatalogApp.Models;
 
-namespace VGCatalogApp
+namespace VGCatalogApp.Controllers
 {
     public class VGSystemsController : Controller
     {
@@ -54,7 +54,7 @@ namespace VGCatalogApp
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Consoles")] VGSystem vGSystem)
+        public async Task<IActionResult> Create([Bind("Id,Consoles,Title")] VGSystem vGSystem)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace VGCatalogApp
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Consoles")] VGSystem vGSystem)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Consoles,Title")] VGSystem vGSystem)
         {
             if (id != vGSystem.Id)
             {

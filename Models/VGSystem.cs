@@ -11,6 +11,7 @@ namespace VGCatalogApp.Models
         [Key]
         public int Id { get; set; }
         public string Consoles { get; set;  }
+        public string Title { get; set; }
     }
 
 }
