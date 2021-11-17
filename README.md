@@ -2,6 +2,6 @@ This is a project for code louisville. It is a catalog that lets you keep track 
 
 Requirements:
 1. It uses the ASP.NET MVC web API.
-2. It visualizes data in a database.
+2. It visualizes data from a database.
 3. It includes a Unit Test.
 
